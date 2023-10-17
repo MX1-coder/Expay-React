@@ -1,0 +1,337 @@
+
+
+
+.navbar-section {
+    background-color: rgb(12, 16, 92);
+    width: 100%;
+    height: 70px;
+    /* padding-top: 40px; */
+    /* margin-top: 10px; */
+}
+
+
+.navbar-section-two {
+    background-color: rgb(12, 16, 92);
+    /* height: 80px; */
+}
+
+.navbar-button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 120px;
+}
+
+.navbar-section span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: end; */
+    justify-content: space-between;
+}
+
+.navbar-section span ul {
+    display: flex;
+    /* margin-right: 40px; */
+    list-style: none;
+    /* text-decoration: none; */
+    color: white;
+    border-bottom: none;
+
+}
+
+.navbar-section span ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 24px;
+    
+    font-size: 12px;
+    color: white;
+
+}
+
+ul span li {
+    color: rgb(48, 172, 155);
+}
+
+.business-section {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-part h1 {
+    color: rgb(12, 16, 92);
+    font-weight: bold;
+
+}
+
+.signup-btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: small;
+    background-color: #88a1ee;
+}
+
+.short-section {
+    background-color: rgb(12, 16, 92);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+
+.short-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.business-btn {
+    color: rgb(12, 16, 92);
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.business-section-two {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sectiontwo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectiontwo-text h4 {
+    color: rgb(12, 16, 92);
+    font-weight: bold;
+}
+
+.sectiontwo-text p {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+a {
+    color: rgb(81, 122, 211);
+    /* width: 130px; */
+    text-decoration: none;
+
+}
+
+.business-section-three {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243, 252, 249);
+
+}
+
+.sectionthree-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sectionthree-text h4 {
+    color: rgb(12, 16, 92);
+    font-weight: bold;
+}
+
+.sectionthree-text p {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.sign-up-btn {
+    background-color: white;
+    border-radius: 18px;
+    width: 200px;
+    height: 35px;
+    color: #88a1ee;
+    font-weight: bold;
+
+}
+
+.shorttwo-section {
+    height: 28vh;
+    width: 100%;
+    background-color: rgb(12, 16, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.shorttwo-section h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.business-content {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-text {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.footer-section {
+    height: 50vh;
+    max-width: 100%;
+    background: #0C0543 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.detail {
+    color: white;
+}
+
+.detail p {
+    margin-top: 5px;
+}
+
+.Submit-btn {
+    background-color: rgb(29, 177, 128);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    width: 120px;
+    margin-right: 480px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+@media (max-width: 768px){
+    .business-section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 100%;
+        height: 70vh;
+    }
+    .short-section{
+        max-width: 100%;
+        height: 20vh;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .business-section-two{
+        max-width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-part h1{
+        font-size: 20px;
+    }
+    .short-section h2{
+        font-size: 15px;
+    }
+    .sectiontwo-text{
+        text-align: center;
+    }
+
+    .business-section-three{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .shorttwo-section{
+        max-width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .sectionthree-text{
+        text-align: center;
+    }
+    .business-content{
+        max-width: 100%;
+        height:30vh;
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+    }
+    .content-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .shorttwo-section h3{
+        font-size: 15px;
+    }
+    
+
+        .footer-section {
+            /* width: 400px; */
+    
+            max-width: 100%;
+            height: 50vh;
+            font-size: 10px;
+            /* height: 400px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .detail{
+            margin-bottom: 250px;
+        }
+    
+        
+    }

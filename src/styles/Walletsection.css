@@ -1,0 +1,258 @@
+.navbar-section {
+    background-color: rgb(12, 16, 92);
+    width: 100%;
+    height: 70px;
+    /* padding-top: 40px; */
+    /* margin-top: 10px; */
+}
+
+
+
+.navbar-section-two {
+    background-color: rgb(12, 16, 92);
+    /* height: 80px; */
+}
+
+.navbar-button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 120px;
+}
+
+.navbar-section span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.navbar-section span ul {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    /* text-decoration: none; */
+    color: white;
+    border-bottom: none;
+
+}
+
+.navbar-section span ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 12px;
+    color: white;
+
+}
+
+ul span li {
+    color: rgb(48, 172, 155);
+}
+
+.wallet-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.wallet-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 250px; */
+    width: 100%;
+}
+
+.card-on {
+    height: 150px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-on:hover {
+    transform: scale(1.0);
+    background-color: #88a1ee;
+    transition: ease-in-out 0.1s;
+}
+
+.wallet-btn {
+    background-color: #88a1ee;
+    color: white;
+    height: 28px;
+    width: 150px;
+    font-size: 12px;
+}
+
+#logo11 {
+    height: 80px;
+    width: 80px;
+}
+
+.short-cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+}
+
+.card-details {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 10px;
+}
+
+.short-cards h6 {
+    color: rgb(48, 172, 155);
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.wallet-section-two {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(241, 242, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-form span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet-text h4 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wallet-form {
+    width: 540px;
+    margin-top: 40px;
+}
+
+.description-input {
+    height: 100px;
+}
+
+.send-btn {
+    background-color: rgb(8, 114, 79);
+    color: white;
+    width: 150px;
+    border-radius: 18px;
+    height: 35px;
+    margin-left: 220px;
+}
+
+.footer-section {
+    height: 50vh;
+    max-width: 100%;
+    background: #0C0543 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.detail {
+    color: white;
+}
+
+.detail p {
+    margin-top: 5px;
+
+}
+
+@media (max-width: 768px) {
+    .wallet-content {
+        height: 90vh;
+        max-width: 100%;
+        padding: 3%;
+    }
+
+    .wallet-card {
+        max-width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .card-on {
+        margin-bottom: 10px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .wallet-btn {
+        width: 100px;
+    }
+
+    .short-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wallet-section-two {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .wallet-form {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .send-btn {
+        margin-left: 0px;
+    }
+
+    .wallet-form span {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-section {
+        /* width: 400px; */
+
+        max-width: 100%;
+        height: 50vh;
+        font-size: 10px;
+        /* height: 400px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detail {
+        margin-bottom: 250px;
+    }
+
+    .form-input {
+        width: 280px;
+    }
+
+    .currency-input {
+        width: 280px;
+    }
+
+}

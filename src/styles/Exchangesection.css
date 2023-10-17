@@ -1,0 +1,225 @@
+
+
+.navbar-section {
+    background-color: rgb(12, 16, 92);
+    width: 100%;
+    height: 70px;
+
+}
+
+
+
+.navbar-section-two {
+    background-color: rgb(12, 16, 92);
+
+}
+
+.navbar-button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 120px;
+}
+
+.navbar-section span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.navbar-section span ul {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+    color: white;
+    border-bottom: none;
+
+}
+
+.navbar-section span ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 12px;
+    color: white;
+
+}
+
+ul span li {
+    color: rgb(48, 172, 155);
+}
+
+.exchange-content {
+    height: 110vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+.exchange-content h5{
+    margin-top: 20px;
+}
+
+#logo30 {
+    height: 80;
+    width: 160px;
+}
+
+.logo-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.exchange-content p {
+    color: #3BCBA0;
+}
+
+.card-rate-section {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.rate-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-rate {
+    height: 60px;
+    border-radius: 0px;
+    width: 480px;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo34 {
+    height: 15px;
+    width: 15px;
+
+    /* margin-left: 50px; */
+}
+
+.card-rate span {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-rate-two {
+    padding: 10px;
+    height: 243px;
+    width: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    /* align-items: center; */
+    text-align: left;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.footer-section {
+    height: 50vh;
+    max-width: 100%;
+    background: #0C0543 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* .footer-details {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.detail {
+    color: white;
+}
+
+.detail p {
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .logo-section {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        height: 320px;
+        margin-bottom: 30px;
+
+    }
+
+    .exchange-content {
+        max-width: 100%;
+         padding: 10%;
+
+    }
+
+    .card-rate-section {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-rate {
+        width: 350px;
+        /* display: flex; */
+        /* align-items: center; */
+
+    }
+
+    .card-rate span h6 {
+        margin-left: 30px;
+
+    }
+    
+    .card-rate-two{
+        height: auto;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    #logo30{
+        height: 40px;
+        width: 120px;
+    }
+    .rate-section-two{
+        width: 350px;
+    }
+    .footer-section {
+        /* width: 400px; */
+
+        max-width: 100%;
+        height: 40vh;
+        font-size: 10px;
+        /* height: 400px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .detail{
+        margin-bottom: 250px;
+    }
+}

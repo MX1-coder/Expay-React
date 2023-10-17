@@ -1,0 +1,309 @@
+.navbar-section {
+    background-color: rgb(12, 16, 92);
+    width: 100%;
+    height: 70px;
+    /* padding-top: 40px; */
+    /* margin-top: 10px; */
+}
+
+
+
+.navbar-section-two {
+    background-color: rgb(12, 16, 92);
+    /* height: 80px; */
+}
+
+.navbar-button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 120px;
+}
+
+.navbar-section span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.navbar-section span ul {
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+    /* text-decoration: none; */
+    color: white;
+    border-bottom: none;
+
+}
+
+.navbar-section span ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 12px;
+    color: white;
+
+}
+
+ul span li {
+    color: rgb(48, 172, 155);
+}
+
+
+.withdraw-section {
+    height: 210vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-section {
+    height: 400px;
+    max-width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+
+}
+
+.span-one .check {
+    width: 350px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.descript-input {
+    width: 600px;
+    height: 100px;
+}
+
+.withdraw-card {
+    height: 200px;
+    width: 610px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(249, 250, 255);
+    border: none;
+    margin-bottom: 8px;
+    padding: 10px;
+
+}
+
+.form-label {
+    font-size: 12px;
+}
+
+.form-check-label {
+    font-size: 12px;
+}
+
+.withdraw-btn {
+    background-color: rgb(29, 177, 128);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    width: 120px;
+    margin-right: 480px;
+}
+
+.span-one {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.withdraw-section span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.withdraw-card span {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cardbox1 {
+    height: 180px;
+    width: 280px;
+    background-color: rgb(249, 250, 255);
+    border: none;
+    padding: 10px;
+
+
+}
+
+.cardbox2 {
+    height: 180px;
+    width: 280px;
+    background-color: rgb(249, 250, 255);
+    border: none;
+    padding: 10px;
+
+}
+
+.withdraw-cards {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+    border: none;
+    /* margin-bottom: 8px; */
+
+}
+
+.footer-section {
+    height: 50vh;
+    width: 100%;
+    background: #0C0543 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .footer-details {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.detail {
+    color: white;
+}
+
+.detail p {
+    margin-top: 5px;
+}
+.mail-control{
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    .withdraw-section {
+        max-width: 100%;
+        height: 200vh;
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+
+    .form-section {
+        width: 300px;
+        height: 400px;
+        /* margin-top: 100px; */
+        /* display: flex; */
+
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .form-section span {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .check2 input {
+        width: 300px;
+    }
+
+    .check {
+        height: 60px;
+        width: 300px;
+        /* margin-bottom: -50px; */
+        /* margin-top: -20px; */
+    }
+
+    .withdraw-card {
+        width: 300px;
+        height: 400px;
+
+    }
+
+    .withdraw-card input {
+        width: 280px;
+    }
+
+    .span-one {
+
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .withdraw-card span {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .withdraw-cards {
+        width: 320px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cardbox1 {
+        /* display: flex; */
+        text-align: center;
+        /* align-items: center; */
+        width: 125px;
+    }
+
+    .cardbox2 {
+        text-align: center;
+        width: 125px;
+    }
+
+    .withdraw-btn {
+        width: 100px;
+        margin-right: 180px;
+    }
+
+    .footer-section {
+        /* width: 400px; */
+
+        max-width: 100%;
+        height: 50vh;
+        font-size: 10px;
+        /* height: 400px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detail {
+        margin-bottom: 250px;
+    }
+
+    .descript-input{
+        width: 300px;
+    }
+
+}

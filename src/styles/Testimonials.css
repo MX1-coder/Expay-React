@@ -1,0 +1,272 @@
+.testi-content {
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/testi-image.jpg);
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.testi-text {
+    margin-left: 50px;
+    font: normal normal medium 16px/26px Montserrat;
+    color: white;
+    font-weight: bold;
+}
+
+.testi-section {
+
+
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+.slide{
+height: 70vh;
+max-width: 100%;
+}
+
+.card-one-testi {
+
+    height: 300px;
+    width: 280px;
+    padding: 25px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: normal normal medium 16px/26px Montserrat;
+    background: #FCFCFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 15px;
+    opacity: 0.94;
+}
+
+#logo19 {
+    height: 80px;
+    width: 80px;
+}
+
+.card-two-testi {
+    height: 320px;
+    width: 290px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: normal normal medium 16px/26px Montserrat;
+
+    background: #F5FFFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.testi-content-two {
+    padding: 30px;
+height: 90vh;
+    width: 100%;
+    background-color: #F5FFFC;
+}
+
+.testi-section-two {
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.card-testi-1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    height: 300px;
+    width: 290px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000012;
+    border-radius: 15px;
+    opacity: 1;
+    font: normal normal medium 16px/26px Montserrat;
+}
+
+.card-testi-2 {
+    height: 300px;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+
+    width: 290px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000012;
+    border-radius: 15px;
+    opacity: 1;
+    font: normal normal medium 16px/26px Montserrat;
+}
+
+.card-testi-3 {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+
+    height: 300px;
+    width: 290px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000012;
+    border-radius: 15px;
+    opacity: 1;
+    font: normal normal medium 16px/26px Montserrat;
+}
+
+#logo22 {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+
+}
+
+.testi-text-two {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font: normal normal medium 16px/26px Montserrat;
+}
+
+.testi-body {
+    height: 100px;
+    width: 290px;
+    background-color: #718DE9;
+}
+
+.testi-body1 {
+    height: 100px;
+    width: 290px;
+    background-color: #10956D;
+}
+#profile{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: -30px;
+    border-radius: 50px;
+}
+.testi-body2 {
+    height: 100px;
+    width: 290px;
+    background-color: #0D0547;
+}
+
+@media (max-width: 768px) {
+    .testi-content {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .testi-section-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    
+
+    }
+    #profile{
+        height: 60px;
+        width: 60px;
+        
+    }
+    .testi-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .card-one-testi {
+        height: 210px;
+        width: 300px;
+        margin-top: 10px;
+        /* font-size: 12px; */
+        margin-bottom: 20px;
+        padding: 40px;
+
+    }
+
+    .card-two-testi {
+        /* margin-top: 10px; */
+        height: 200px;
+        width: 300px;
+        margin-bottom: 20px;
+        padding: 40px;
+
+
+    }
+
+    .testi-text {
+        margin-bottom: 10px;
+    }
+
+    .card-testi-1 {
+        height: 180px;
+        width: 250px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .card-testi-2 {
+        height: 180px;
+        width: 250px;
+        margin-bottom: 10px;
+
+        /* margin-top: -80px; */
+    }
+
+    .card-testi-3 {
+        height: 180px;
+        width: 250px;
+        margin-bottom: 10px;
+
+
+        /* margin-top: -80px; */
+    }
+
+    #logo22 {
+        height: 35px;
+        width: 40px;
+    }
+
+    .testi-body {
+        width: 250px;
+    }
+
+    .testi-body1 {
+        width: 250px;
+    }
+
+    .testi-body2 {
+        width: 250px;
+    }
+
+}
